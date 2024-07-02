@@ -150,7 +150,7 @@ def run_program():
 
 # GUI setup
 root = tk.Tk()
-root.title("Geometric Shape to MIDI Generator")
+root.title("Sacred Geometry to MIDI Generator")
 
 frame = ttk.Frame(root, padding="10")
 frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
@@ -191,7 +191,7 @@ filename_entry.insert(0, "output.mid")
 
 # Visualization and MIDI options
 visualize_var = tk.BooleanVar()
-ttk.Checkbutton(frame, text="Generate Visualization", variable=visualize_var).grid(row=5, column=0, sticky=tk.W)
+ttk.Checkbutton(frame, text="Generate Visualisation", variable=visualize_var).grid(row=5, column=0, sticky=tk.W)
 midi_var = tk.BooleanVar()
 ttk.Checkbutton(frame, text="Generate MIDI File", variable=midi_var).grid(row=5, column=1, sticky=tk.E)
 
